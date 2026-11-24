@@ -1,0 +1,160 @@
+{
+  "База": {
+    "LP": {
+      "count_error": 4.440892098500626e-16,
+      "bounds_violation": 2.1316282072803006e-14,
+      "demand_error": 1.0658141036401503e-14,
+      "closure_error": 0.0,
+      "link_violation": 7.105427357601001e-15,
+      "integer_error": 0.0,
+      "objective_error": 0.0
+    },
+    "MILP": {
+      "count_error": 4.440892098500626e-16,
+      "bounds_violation": 2.1316282072803006e-14,
+      "demand_error": 1.0658141036401503e-14,
+      "closure_error": 0.0,
+      "link_violation": 7.105427357601001e-15,
+      "integer_error": 4.440892098500626e-16,
+      "objective_error": 0.0
+    },
+    "перебор троек": {
+      "objective_error": 0.0
+    }
+  },
+  "Дефицит": {
+    "LP": {
+      "count_error": 0.0,
+      "bounds_violation": 0.0,
+      "demand_error": 0.0,
+      "closure_error": 0.0,
+      "link_violation": 0.0,
+      "integer_error": 0.0,
+      "objective_error": 0.0
+    },
+    "MILP": {
+      "count_error": 0.0,
+      "bounds_violation": 2.220446049250313e-16,
+      "demand_error": 3.552713678800501e-15,
+      "closure_error": 0.0,
+      "link_violation": 0.0,
+      "integer_error": 2.220446049250313e-16,
+      "objective_error": 0.0
+    },
+    "перебор троек": {
+      "objective_error": 0.0
+    }
+  },
+  "Стресс": {
+    "LP": {
+      "count_error": 0.0,
+      "bounds_violation": 0.0,
+      "demand_error": 0.0,
+      "closure_error": 0.0,
+      "link_violation": 0.0,
+      "integer_error": 0.0,
+      "objective_error": 0.0
+    },
+    "MILP": {
+      "count_error": 0.0,
+      "bounds_violation": 0.0,
+      "demand_error": 0.0,
+      "closure_error": 0.0,
+      "link_violation": 0.0,
+      "integer_error": 0.0,
+      "objective_error": 0.0
+    },
+    "перебор троек": {
+      "objective_error": 0.0
+    }
+  },
+  "Слабая связка": {
+    "LP": {
+      "count_error": 1.3322676295501878e-15,
+      "bounds_violation": 0.0,
+      "demand_error": 0.0,
+      "closure_error": 0.0,
+      "link_violation": 0.0,
+      "integer_error": 0.0,
+      "objective_error": 0.0
+    },
+    "MILP": {
+      "count_error": 4.440892098500626e-16,
+      "bounds_violation": 2.1316282072803006e-14,
+      "demand_error": 1.0658141036401503e-14,
+      "closure_error": 0.0,
+      "link_violation": 7.105427357601001e-15,
+      "integer_error": 4.440892098500626e-16,
+      "objective_error": 0.0
+    },
+    "перебор троек": {
+      "objective_error": 0.0
+    }
+  },
+  "Масштаб 10": {
+    "LP": {
+      "count_error": 0.0,
+      "bounds_violation": 1.3322676295501878e-15,
+      "demand_error": 1.7763568394002505e-14,
+      "closure_error": 0.0,
+      "link_violation": 1.7763568394002505e-14,
+      "integer_error": 0.0,
+      "objective_error": 9.094947017729282e-13
+    },
+    "MILP": {
+      "count_error": 0.0,
+      "bounds_violation": 1.3322676295501878e-15,
+      "demand_error": 1.7763568394002505e-14,
+      "closure_error": 0.0,
+      "link_violation": 1.7763568394002505e-14,
+      "integer_error": 1.3322676295501878e-15,
+      "objective_error": 9.094947017729282e-13
+    },
+    "перебор троек": {
+      "objective_error": 9.094947017729282e-13
+    }
+  },
+  "Масштаб 20": {
+    "LP": {
+      "count_error": 0.0,
+      "bounds_violation": 1.462882103035501e-14,
+      "demand_error": 7.105427357601002e-15,
+      "closure_error": 0.0,
+      "link_violation": 2.842170943040401e-14,
+      "integer_error": 0.0,
+      "objective_error": 0.0
+    },
+    "MILP": {
+      "count_error": 0.0,
+      "bounds_violation": 1.462882103035501e-14,
+      "demand_error": 7.105427357601002e-15,
+      "closure_error": 0.0,
+      "link_violation": 2.842170943040401e-14,
+      "integer_error": 1.0150610510858574e-15,
+      "objective_error": 0.0
+    },
+    "перебор троек": {
+      "objective_error": 0.0
+    }
+  },
+  "Масштаб 40": {
+    "LP": {
+      "count_error": 0.0,
+      "bounds_violation": 4.263256414560602e-14,
+      "demand_error": 1.7763568394002505e-14,
+      "closure_error": 0.0,
+      "link_violation": 6.327213885101845e-14,
+      "integer_error": 0.0,
+      "objective_error": 3.637978807091713e-12
+    },
+    "MILP": {
+      "count_error": 0.0,
+      "bounds_violation": 4.263256414560602e-14,
+      "demand_error": 1.7763568394002505e-14,
+      "closure_error": 0.0,
+      "link_violation": 6.327213885101845e-14,
+      "integer_error": 1.860945260324072e-15,
+      "objective_error": 0.0
+    }
+  }
+}

@@ -1,0 +1,163 @@
+База
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 9e+00]
+  Cost   [7e+01, 1e+02]
+  Bound  [2e+01, 3e+01]
+  RHS    [4e+02, 5e+02]
+Presolving model
+3 rows, 8 cols, 24 nonzeros  0s
+3 rows, 8 cols, 24 nonzeros  0s
+Presolve : Reductions: rows 3(-0); columns 8(-0); elements 24(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          2    -1.4773926829e+04 Pr: 0(0) 0s
+Model status        : Optimal
+Simplex   iterations: 2
+Objective value     : -1.4773926829e+04
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 9e+00]
+  Cost   [7e+01, 1e+02]
+  Bound  [2e+01, 3e+01]
+  RHS    [4e+02, 5e+02]
+Presolving model
+3 rows, 8 cols, 24 nonzeros  0s
+3 rows, 8 cols, 24 nonzeros  0s
+Presolve : Reductions: rows 3(-0); columns 8(-0); elements 24(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+IPX model has 3 rows, 8 columns and 24 nonzeros
+Input
+    Number of variables:                                8
+    Number of free variables:                           0
+    Number of constraints:                              3
+    Number of equality constraints:                     0
+    Number of matrix entries:                           24
+    Matrix range:                                       [1e+00, 9e+00]
+    RHS range:                                          [4e+02, 5e+02]
+    Objective range:                                    [7e+01, 1e+02]
+    Bounds range:                                       [2e+01, 3e+01]
+Preprocessing
+    Dualized model:                                     no
+    Number of dense columns:                            0
+    Range of scaling factors:                           [5.00e-01, 1.00e+00]
+IPX version 1.0
+Interior point solve
+ Iter     P.res    D.res            P.obj           D.obj        mu     Time
+   0   9.20e+01 1.00e+02  -1.06557544e+04 -3.73178499e+04  1.08e+04       0s
+   1   9.20e-05 1.00e-04  -9.65724502e+03 -2.96838347e+04  1.05e+03       0s
+   2   2.74e-05 1.59e-05  -1.23099284e+04 -1.63519017e+04  2.13e+02       0s
+   3   1.08e-05 1.59e-11  -1.39017041e+04 -1.49886021e+04  5.72e+01       0s
+   4   4.67e-07 5.45e-13  -1.47417903e+04 -1.47887804e+04  2.47e+00       0s
+   5   3.48e-09 2.84e-14  -1.47738049e+04 -1.47740507e+04  1.29e-02       0s
+   6*  2.61e-12 1.42e-14  -1.47739267e+04 -1.47739268e+04  4.80e-06       0s
+ Constructing starting basis...
+Running crossover as requested
+    Primal residual before push phase:                  2.29e-06
+    Dual residual before push phase:                    1.37e-08
+    Number of dual pushes required:                     0
+    Number of primal pushes required:                   0
+Summary
+    Runtime:                                            0.00s
+    Status interior point solve:                        optimal
+    Status crossover:                                   optimal
+    objective value:                                    -1.47739267e+04
+    interior solution primal residual (abs/rel):        5.23e-12 / 1.11e-14
+    interior solution dual residual (abs/rel):          2.84e-14 / 2.03e-16
+    interior solution objective gap (abs/rel):          9.12e-05 / 6.17e-09
+    basic solution primal infeasibility:                0.00e+00
+    basic solution dual infeasibility:                  0.00e+00
+Ipx: IPM       optimal
+Ipx: Crossover optimal
+Model status        : Optimal
+IPM       iterations: 6
+Objective value     : -1.4773926829e+04
+Relative P-D gap    :  1.2312159283e-16
+HiGHS run time      :          0.00
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 9e+00]
+  Cost   [2e+01, 5e+02]
+  Bound  [0e+00, 0e+00]
+  RHS    [7e+01, 1e+02]
+Presolving model
+8 rows, 11 cols, 32 nonzeros  0s
+8 rows, 11 cols, 32 nonzeros  0s
+Presolve : Reductions: rows 8(-0); columns 11(-0); elements 32(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Pr: 8(878.5) 0s
+          6     1.4773926829e+04 Pr: 0(0) 0s
+Model status        : Optimal
+Simplex   iterations: 6
+Objective value     :  1.4773926829e+04
+Relative P-D gap    :  1.2312159283e-16
+HiGHS run time      :          0.00
+Дефицит
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 9e+00]
+  Cost   [7e+01, 1e+02]
+  Bound  [2e+01, 3e+01]
+  RHS    [3e+02, 5e+02]
+Presolving model
+3 rows, 8 cols, 24 nonzeros  0s
+3 rows, 8 cols, 24 nonzeros  0s
+Presolve : Reductions: rows 3(-0); columns 8(-0); elements 24(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          5    -1.4237000000e+04 Pr: 0(0) 0s
+Model status        : Optimal
+Simplex   iterations: 5
+Objective value     : -1.4237000000e+04
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00
+Стресс
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 9e+00]
+  Cost   [7e+01, 1e+02]
+  Bound  [2e+01, 3e+01]
+  RHS    [3e+02, 4e+02]
+Presolving model
+3 rows, 8 cols, 24 nonzeros  0s
+3 rows, 8 cols, 24 nonzeros  0s
+Presolve : Reductions: rows 3(-0); columns 8(-0); elements 24(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          3    -1.2449290000e+04 Pr: 0(0) 0s
+Model status        : Optimal
+Simplex   iterations: 3
+Objective value     : -1.2449290000e+04
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00
+Малый шаг
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 9e+00]
+  Cost   [7e+01, 1e+02]
+  Bound  [2e+01, 3e+01]
+  RHS    [4e+02, 5e+02]
+Presolving model
+3 rows, 8 cols, 24 nonzeros  0s
+3 rows, 8 cols, 24 nonzeros  0s
+Presolve : Reductions: rows 3(-0); columns 8(-0); elements 24(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0s
+          2    -1.4786317073e+04 Pr: 0(0) 0s
+Model status        : Optimal
+Simplex   iterations: 2
+Objective value     : -1.4786317073e+04
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00

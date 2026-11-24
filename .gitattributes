@@ -1,0 +1,4 @@
+*.pdf binary
+*.png binary
+# HiGHS pads the column headings in its native solver output.
+*.log whitespace=-blank-at-eol

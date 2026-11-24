@@ -1,0 +1,6 @@
+﻿case,status,demand,supply,cost,road_t,rail_t,greedy_cost,integer_cost
+База,Optimization terminated successfully. (HiGHS Status 7: Optimal),105.0,122,16079.0,37.0,68.0,16810.0,16079.0
+Перегрузка,Optimization terminated successfully. (HiGHS Status 7: Optimal),105.0,122,16198.0,23.0,82.0,,
+Отказ,Optimization terminated successfully. (HiGHS Status 7: Optimal),105.0,122,16349.0,15.0,90.0,,
+Рост спроса,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible),126.0,122,,,,,
+Стресс,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),126.0,122,,,,,

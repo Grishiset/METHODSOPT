@@ -1,0 +1,43 @@
+{
+  "База": {
+    "supply_excess": 0.0,
+    "demand_error": 0.0,
+    "capacity_excess": 0.0,
+    "lower_violation": 0.0,
+    "objective_error": 0.0
+  },
+  "Эвристика": {
+    "supply_excess": 0.0,
+    "demand_error": 0.0,
+    "capacity_excess": 0.0,
+    "lower_violation": 0.0,
+    "objective_error": 0.0
+  },
+  "Целые тонны": {
+    "supply_excess": 0.0,
+    "demand_error": 0.0,
+    "capacity_excess": 0.0,
+    "lower_violation": 0.0,
+    "objective_error": 0.0
+  },
+  "Перегрузка": {
+    "supply_excess": 0.0,
+    "demand_error": 0.0,
+    "capacity_excess": 0.0,
+    "lower_violation": 0.0,
+    "objective_error": 0.0
+  },
+  "Отказ": {
+    "supply_excess": 0.0,
+    "demand_error": 0.0,
+    "capacity_excess": 0.0,
+    "lower_violation": 0.0,
+    "objective_error": 0.0
+  },
+  "Рост спроса": {
+    "demand_exceeds_total_supply_by": 4.0
+  },
+  "Стресс": {
+    "demand_exceeds_total_supply_by": 4.0
+  }
+}

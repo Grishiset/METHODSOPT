@@ -1,0 +1,4 @@
+# Python 3.12.14. HiGHS supplied by the pinned SciPy wheel.
+numpy==2.3.5
+scipy==1.16.3
+matplotlib==3.10.7

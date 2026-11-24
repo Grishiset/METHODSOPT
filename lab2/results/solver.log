@@ -1,0 +1,155 @@
+База
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [1e+02, 4e+02]
+  Bound  [4e+00, 4e+01]
+  RHS    [2e+01, 4e+01]
+Presolving model
+9 rows, 40 cols, 80 nonzeros  0s
+9 rows, 40 cols, 80 nonzeros  0s
+Presolve : Reductions: rows 9(-0); columns 40(-0); elements 80(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Pr: 5(105) 0s
+          9     1.6079000000e+04 Pr: 0(0) 0s
+Model status        : Optimal
+Simplex   iterations: 9
+Objective value     :  1.6079000000e+04
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [1e+02, 4e+02]
+  Bound  [4e+00, 4e+01]
+  RHS    [2e+01, 4e+01]
+Presolving model
+9 rows, 40 cols, 80 nonzeros  0s
+9 rows, 40 cols, 80 nonzeros  0s
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   9 rows
+   40 cols (0 binary, 40 integer, 0 implied int., 0 continuous)
+   80 nonzeros
+MIP-Timing:     0.00056 - starting analytic centre calculation
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic; L => Sub-MIP;
+     P => Empty MIP; R => Randomized rounding; S => Solve LP; T => Evaluate node; U => Unbounded;
+     z => Trivial zero; l => Trivial lower; u => Trivial upper; p => Trivial point
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   0               inf                  inf        0      0      0         0     0.0s
+ T       0       0         0   0.00%   0               16079            100.00%        0      0      0         9     0.0s
+         1       0         1 100.00%   16079           16079              0.00%        0      0      0         9     0.0s
+
+Solving report
+  Status            Optimal
+  Primal bound      16079
+  Dual bound        16079
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      3.95774841309e-05
+  Solution status   feasible
+                    16079 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.00 (total)
+                    0.00 (presolve)
+                    0.00 (solve)
+                    0.00 (postsolve)
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0 (0 feasible; 0 iterations)
+  LP iterations     9 (total)
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+Перегрузка
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [1e+02, 4e+02]
+  Bound  [4e+00, 4e+01]
+  RHS    [2e+01, 4e+01]
+Presolving model
+9 rows, 40 cols, 80 nonzeros  0s
+9 rows, 40 cols, 80 nonzeros  0s
+Presolve : Reductions: rows 9(-0); columns 40(-0); elements 80(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Pr: 5(105) 0s
+         10     1.6198000000e+04 Pr: 0(0) 0s
+Model status        : Optimal
+Simplex   iterations: 10
+Objective value     :  1.6198000000e+04
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00
+Отказ
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [1e+02, 4e+02]
+  Bound  [4e+00, 4e+01]
+  RHS    [2e+01, 4e+01]
+Presolving model
+9 rows, 39 cols, 78 nonzeros  0s
+9 rows, 39 cols, 78 nonzeros  0s
+Presolve : Reductions: rows 9(-0); columns 39(-1); elements 78(-2)
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Pr: 5(105) 0s
+         14     1.6349000000e+04 Pr: 0(0) 0s
+Solving the original LP from the solution after postsolve
+Model status        : Optimal
+Simplex   iterations: 14
+Objective value     :  1.6349000000e+04
+Relative P-D gap    :  0.0000000000e+00
+HiGHS run time      :          0.00
+Рост спроса
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [1e+02, 4e+02]
+  Bound  [4e+00, 4e+01]
+  RHS    [2e+01, 4e+01]
+Presolving model
+9 rows, 40 cols, 80 nonzeros  0s
+9 rows, 40 cols, 80 nonzeros  0s
+Presolve : Reductions: rows 9(-0); columns 40(-0); elements 80(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Pr: 5(126) 0s
+          9     2.0797469705e+04 0s
+Model status        : Infeasible
+Simplex   iterations: 9
+Objective value     :  2.0797400000e+04
+Relative P-D gap    :  3.3516131100e-06
+HiGHS run time      :          0.00
+Стресс
+Running HiGHS 1.8.0 (git hash: 222cce7): Copyright (c) 2024 HiGHS under MIT licence terms
+Coefficient ranges:
+  Matrix [1e+00, 1e+00]
+  Cost   [1e+02, 4e+02]
+  Bound  [4e+00, 4e+01]
+  RHS    [2e+01, 4e+01]
+Presolving model
+9 rows, 39 cols, 78 nonzeros  0s
+9 rows, 39 cols, 78 nonzeros  0s
+Presolve : Reductions: rows 9(-0); columns 39(-1); elements 78(-2)
+Solving the presolved LP
+Using EKK dual simplex solver - serial
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Pr: 5(126) 0s
+         13     2.1038073308e+04 0s
+Model status        : Infeasible
+Simplex   iterations: 13
+Objective value     :  2.1038000000e+04
+HiGHS run time      :          0.00
